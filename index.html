@@ -1,0 +1,252 @@
+<html>
+<head>
+<title>7erafy</title>
+<meta charset="UTF-8"/>
+ 
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<style>
+ .pull-right {
+  float: right !important;
+}
+.img-responsive{width:100%;height:100%}
+body {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+input[type="text"]::-webkit-input-placeholder {
+  color: orange;
+}
+input[type="text"]::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #000;
+}
+input[type="text"]::-moz-placeholder { /* Firefox 19+ */
+  color: #000;
+}
+input[type="text"]:-ms-input-placeholder { /* IE 10+ */
+  color: #000;;
+}
+input[type="text"]:-moz-placeholder { /* Firefox 18- */
+  color: #000;
+}
+
+input[type="password"]::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #000;
+}
+input[type="password"]::-moz-placeholder { /* Firefox 19+ */
+  color: #000;
+}
+input[type="password"]:-ms-input-placeholder { /* IE 10+ */
+  color: #000;;
+}
+input[type="password"]:-moz-placeholder { /* Firefox 18- */
+  color: #000;
+}
+
+input[type="email"]::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #000;
+}
+input[type="email"]::-moz-placeholder { /* Firefox 19+ */
+  color: #000;
+}
+input[type="email"]:-ms-input-placeholder { /* IE 10+ */
+  color: #000;;
+}
+input[type="email"]:-moz-placeholder { /* Firefox 18- */
+  color: #000;
+}
+.carousel-content {
+    color:black;
+}
+
+#text-carousel {
+  width: 100%;
+  height: auto;
+  padding: 50px;
+}
+input[type=radio]:checked ~ .check {
+  border: 5px solid #0DFF92;
+}
+
+input[type=radio]:checked ~ .check::before{
+  background: #0DFF92;
+}
+
+input[type=radio]:checked ~ label{
+  color: #0DFF92;
+}
+
+@font-face {
+    font-family: shekari;
+    src: url(www.Brushez.com-Shekari-Font.ttf);
+}
+
+
+ </style>
+ 
+ <script type="text/javascript">
+ var $ = jQuery.noConflict();
+ $(document).ready(function()  { $('#text-carousel').carousel({ interval: 4000, cycle: true }); });
+  </script>
+  
+<script type="text/javascript" src="bootstrap/js/jquery-3.1.1.min.js"></script>
+
+ 
+
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<meta name="viewport" content="width = device-width, initial-scale = 1">
+<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+</head>
+
+
+<body style="background-color:#d8d8d8;text-align:right;background-image:url('craft-man.jpeg');width:100%;height:100%;">
+
+<div class="navbar navbar-inverse navbar-fixed-top" style="width:100%;height:100px;background-color:black;opacity:0.7">
+<div class="container pull-right">
+<p style="font-family:shekari;color:#FF8C00;font-size:80px;font-weight:bold;margin-top:3%;margin-right:9%;">حرفي</p>
+</div>
+</div>
+
+<div class="row">
+<div class="span4">
+<div class="navbar navbar-inverse navbar-fixed-top">
+<div class="container pull-right">
+<h3 style="margin-top:10.6%;margin-right:0px;background-color:black;opacity:0.7;padding-right:10px;width:28%">
+<a href="#col1content" data-toggle="collapse" style="text-decoration: none;color:#FF8C00">لو عايز حرفي سجل معانا</a></h3>
+<div id="col1content" class="collapse">
+<table class="table" style="background-color:#989590;opacity:0.9;margin-right:20px;width:18%">
+<tbody>
+<tr>
+<td><input type="text" value="" placeholder="الاسم"></td>
+</tr>
+
+<tr>
+<td><input type="text" value="" placeholder="اللقب"></td>
+</tr>
+<tr>
+<td><input type="text" value="" placeholder="رقم الموبايل"></td>
+</tr>
+<tr>
+<td><input type="text" value="" placeholder="تاريخ الميلاد : 1-1-2017"></td>
+</tr>
+
+<tr>
+<td><input type="text" value="" placeholder="المحافظة"></td>
+</tr>
+<tr>
+<td><input type="text" value="" placeholder="المنطقة"></td>
+</tr>
+
+<tr>
+<td style="text-align:right;color:#000">
+  <input type="radio" name="gender" value="male">ذكر
+  <input type="radio" name="gender" value="female" style="margin-right:20px">أنثى</td>
+</tr>
+<tr>
+<td><input type="email" value="" placeholder="الايميل"></td>
+</tr>
+<tr>
+<td><input type="password" value="" placeholder="كلمة السر"></td>
+</tr>
+<tr>
+<td><input type="password" value="" placeholder="تأكيد كلمة السر"></td>
+</tr>
+<tr>
+<td><button type="button" class="btn btn-warning" style="width:80px;margin-left:5px">تسجيل</button></td>
+</tr>
+ </tbody>
+</table>
+</div>
+
+<h3 style="margin-right:0px;margin-top:10px;background-color:black;opacity:0.7;padding-right:10px;width:28%">
+<a href="#col2content" data-toggle="collapse" style="text-decoration: none;color:#f67c11">لو انت حرفى سجل معانا</a></h3>
+<div id="col2content" class="collapse">
+<table class="table" style="background-color:#989590;opacity:0.9;margin-right:20px;width:18%">
+<tbody>
+<tr>
+<td><input type="text" value="" placeholder="الاسم"></td>
+</tr>
+<tr>
+<td><input type="text" value="" placeholder="اللقب"></td>
+</tr>
+<tr>
+<td><input type="text" value="" placeholder="الحرفة"></td>
+</tr>
+<tr>
+<td><input type="text" value="" placeholder="رقم الموبايل"></td>
+</tr>
+<tr>
+<td><input type="text" value="" placeholder="تاريخ الميلاد : 1-1-2017"></td>
+</tr>
+<tr>
+<td><input type="text" value="" placeholder="المحافظة"></td>
+</tr>
+<tr>
+<td><input type="text" value="" placeholder="المنطقة"></td>
+</tr>
+<tr>
+<td><input type="email" value="" placeholder="الايميل"></td>
+</tr>
+<tr>
+<td><input type="password" value="" placeholder="كلمة السر"></td>
+</tr>
+<tr>
+<td><input type="password" value="" placeholder="تأكيد كلمة السر"></td>
+</tr>
+<tr>
+<td><button type="button" class="btn btn-warning" style="width:80px;margin-left:5px">تسجيل</button></td>
+</tr>
+ </tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="span8">
+<div class="container navbar navbar-inverse" style="margin-top:60%;">
+
+<div class="pagination-centered center-block">
+<div id="text-carousel" class="carousel slide" data-ride="carousel">
+        <div class="col-xs-offset-3 col-xs-6">
+            <div class="carousel-inner">
+			<div class="item active">
+                        <p><h1 style="background-color:#1e1e1e;color:#FF8C00;opacity:0.8">هنبعتلك قريب</h1></p>
+                </div>
+                <div class="item">
+                        <p><h1 style="background-color:#1e1e1e;color:#FF8C00;opacity:0.8">دليل لكل صنايعي</h1></p>
+                </div>
+                <div class="item">
+                           <p><h1 style="background-color:#1e1e1e;color:#FF8C00;opacity:0.8">أكثر خبرة .. أسهل بحث</h1></p>
+                </div>
+                <div class="item">                         
+                            <p><h1 style="background-color:#1e1e1e;color:#FF8C00;opacity:0.8">خبراء في كل صنعة</h1></p>
+                </div>              
+            </div>
+        </div>
+</div>
+</div>
+
+<div class="container" style="margin-right:9%">
+<div class="text-center center-block">
+<a href="https://www.facebook.com/"><i class="fa fa-facebook-square fa-3x social"><img src="facebook.png" style="width:50px;height:50px"/></i></a>
+<a href="https://www.twitter.com/"><i class="fa fa-twitter-square fa-3x social"><img src="twitter.png" style="width:50px;height:50px"/></i></a>
+</div> 
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+ var $ = jQuery.noConflict();
+ $(document).ready(function()  { $('#text-carousel').carousel({ interval: 4000, cycle: true }); });
+</script>
+
+</body>
+</html>
